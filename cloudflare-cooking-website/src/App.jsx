@@ -42,7 +42,8 @@ function App() {
     setCurrentRecipe((currentRecipe - 1 + filteredRecipes.length) % filteredRecipes.length);
   }
   
-  const recipe = filteredRecipes[currentRecipe];
+  const recipe = filteredRecipes.length > 0 && currentRecipe < filteredRecipes.length ? filteredRecipes[currentRecipe] : null;
+
 
   return (
     <div className="relative w-full">
@@ -78,18 +79,20 @@ function App() {
         </button>)}
         <div>
         <div>
-  {filteredRecipes.length === 0 ? (
-    <p className="text-center text-xl font-['Sora'] text-[#5C4033]">sorry, no recipes match. stay tuned for more recipes!</p>
-  ) : (
-    <RecipeCard 
-      title={recipe.title}
-      image={recipe.image}
-      cookTime={recipe.cookTime}
-      servings={recipe.servings}
-      ingredients={recipe.ingredients}
-      instructions={recipe.instructions}
-    />
-  )}
+        {recipe ? (
+  <RecipeCard 
+    title={recipe.title}
+    image={recipe.image}
+    cookTime={recipe.cookTime}
+    servings={recipe.servings}
+    ingredients={recipe.ingredients}
+    instructions={recipe.instructions}
+  />
+) : (
+  <p className="text-center text-xl font-['Sora'] text-[#5C4033]">
+    sorry, no recipes match. stay tuned for more recipes!
+  </p>
+)}
 </div>
         </div>
         {filteredRecipes.length > 0 && (<button
