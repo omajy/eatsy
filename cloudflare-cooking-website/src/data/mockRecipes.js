@@ -20,7 +20,8 @@ const recipes = [
       "Add canned tomatoes, simmer for 15 minutes, season with salt and pepper.",
       "Drain spaghetti and mix with the sauce.",
       "Serve with fresh basil and grated parmesan on top."
-    ]
+    ],
+    tags: ["italian", "pasta", "dinner", "vegetarian"]
   },
   {
     id: 2,
@@ -44,7 +45,8 @@ const recipes = [
       "Pour in cream and simmer for 5 minutes.",
       "Stir in parmesan, add cooked pasta, and season to taste.",
       "Serve hot with extra parmesan on top."
-    ]
+    ],
+    tags: ["italian", "pasta", "dinner", "chicken"]
   },
   {
     id: 3,
@@ -70,7 +72,8 @@ const recipes = [
       "Sprinkle in flour, stir, then add beef broth.",
       "Return beef to the pan, simmer for 20 mins.",
       "Stir in sour cream, season with salt and pepper, and serve over rice or noodles."
-    ]
+    ],
+    tags: [ "beef", "dinner", "pasta"]
   },
   {
     id: 4,
@@ -94,7 +97,8 @@ const recipes = [
       "Drop spoonfuls of batter into oil and fry until golden brown.",
       "Drain on paper towels and dust with powdered sugar.",
       "Serve warm."
-    ]
+    ],
+    tags: ["italian", "dessert", "snack"]
   },
   {
     id: 5,
@@ -119,7 +123,8 @@ const recipes = [
       "Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake.",
       "Cook until bubbles form and edges are dry, then flip and cook until browned on the other side.",
       "Serve hot with syrup, butter, or your favourite toppings."
-    ]
+    ],
+    tags: ["snack", "breakfast", "dessert", "american", "quick"]
   },
   {
     id: 6,
@@ -141,7 +146,8 @@ const recipes = [
       "Grill or pan-fry patties for 4–5 minutes each side.",
       "Toast buns lightly and add cheese on hot patties to melt.",
       "Assemble with lettuce, onion, condiments, and serve hot."
-    ]
+    ],
+    tags: ["american", "beef", "dinner", "lunch"]
   },
   {
     id: 7,
@@ -164,7 +170,8 @@ const recipes = [
       "Add tomatoes and spices, simmer for 10 mins.",
       "Make wells in the sauce, crack in eggs.",
       "Cover and cook until whites set. Garnish with parsley and serve."
-    ]
+    ],
+    tags: [ "breakfast", "dinner", "vegetarian", "healthy"]
   },
   {
     id: 8,
@@ -184,7 +191,8 @@ const recipes = [
       "Beat eggs with salt and pepper.",
       "Melt butter in a pan, sauté vegetables briefly.",
       "Pour in eggs, cook until set, fold and serve hot."
-    ]
+    ],
+    tags: ["vegetarian", "breakfast", "quick", "healthy"]
   },
   {
     id: 9,
@@ -206,7 +214,8 @@ const recipes = [
       "Add spices, then chicken, and brown.",
       "Pour in coconut milk, simmer for 25 mins.",
       "Season and serve with rice or naan."
-    ]
+    ],
+    tags: ["indian", "dinner", "chicken","rice"]
   },
   {
     id: 10,
@@ -226,7 +235,8 @@ const recipes = [
       "Cook onion and pumpkin in a pot until soft.",
       "Add stock and water, simmer 20 mins.",
       "Blend until smooth, stir in cream, season, and serve warm."
-    ]
+    ],
+    tags: ["vegetarian", "soup"]
   },
   {
     id: 11,
@@ -248,7 +258,8 @@ const recipes = [
       "Add flour, stir, then pour in stock. Simmer 20 mins.",
       "Ladle soup into bowls, top with bread and cheese.",
       "Grill until cheese bubbles, serve hot."
-    ]
+    ],
+    tags: ["soup", "vegetarian"]
   },
   {
     id: 12,
@@ -268,7 +279,8 @@ const recipes = [
       "Melt butter in a pan, add garlic, cook 1 minute.",
       "Add prawns and cook until pink.",
       "Stir in lemon juice, season, sprinkle parsley, and serve."
-    ]
+    ],
+    tags: ["seafood", "dinner", "quick"]
   },
   {
     id: 13,
@@ -291,7 +303,8 @@ const recipes = [
       "Cream butter and sugars. Add eggs and vanilla.",
       "Mix in flour and baking soda, fold in choc chips.",
       "Scoop onto baking tray and bake 10–12 minutes."
-    ]
+    ],
+    tags: ["dessert", "snack"]
   },
   {
     id: 14,
@@ -311,7 +324,8 @@ const recipes = [
       "Heat sesame oil, sauté garlic briefly.",
       "Add vegetables, stir-fry 5–7 mins.",
       "Add soy sauce, toss well, and serve hot."
-    ]
+    ],
+    tags: ["vegetarian", "dinner", "asian","rice", "quick"]
   },
   {
     id: 15,
@@ -330,7 +344,8 @@ const recipes = [
       "Cook onion and beef in a pan until browned.",
       "Add taco seasoning and water, simmer 10 mins.",
       "Fill taco shells with beef and toppings. Serve."
-    ]
+    ],
+    tags: ["beef", "dinner", "mexican"]
   },
   {
     id: 16,
@@ -348,7 +363,8 @@ const recipes = [
       "Preheat oven to 160°C. Season ribs with salt, pepper, and paprika.",
       "Wrap in foil and bake for 90 mins.",
       "Brush with BBQ sauce and grill or bake uncovered for 30 mins."
-    ]
+    ],
+    tags: ["pork", "dinner", "american"]
   },
   {
     id: 17,
@@ -367,7 +383,8 @@ const recipes = [
       "Cook chicken with spices until browned.",
       "Warm tortillas, fill with chicken and toppings.",
       "Serve immediately."
-    ]
+    ],
+    tags: ["chicken", "dinner", "mexican"]
   },
   {
     id: 18,
@@ -388,7 +405,8 @@ const recipes = [
       "Cook quinoa in water, let cool.",
       "Mix with vegetables, feta, and dressing.",
       "Serve chilled or at room temperature."
-    ]
+    ],
+    tags: ["vegetarian", "lunch","healthy", "salad", "quick"]
   },
   {
     id: 19,
@@ -408,7 +426,8 @@ const recipes = [
       "Cook beef and onion, add tomatoes, simmer 20 mins.",
       "Layer meat sauce, lasagna sheets, béchamel in dish.",
       "Top with cheese, bake at 180°C for 40 mins."
-    ]
+    ],
+    tags: ["italian", "dinner", "beef","pasta"]
   },
   {
     id: 20,
@@ -428,7 +447,8 @@ const recipes = [
       "Chop lettuce, toss with dressing.",
       "Add croutons, parmesan, and optional toppings.",
       "Serve immediately."
-    ]
+    ],
+    tags: ["italian", "salad", "quick"]
   },
   {
     id: 21,
@@ -451,7 +471,8 @@ const recipes = [
       "Add tomatoes and stock, simmer for 15 mins.",
       "Add basil, blend until smooth.",
       "Stir in cream (if using), season to taste, and serve."
-    ]
+    ],
+    tags: ["italian", "soup", "vegetarian", "lunch"]
   },
   {
     id: 22,
@@ -472,7 +493,8 @@ const recipes = [
       "Spread tomato sauce on the base, top with mozzarella and basil.",
       "Drizzle with olive oil, sprinkle with salt.",
       "Bake for 12–15 mins or until crust is golden."
-    ]
+    ],
+    tags: ["italian", "dinner", "vegetarian", "lunch", "quick"]
   },
   {
     id: 23,
@@ -481,7 +503,7 @@ const recipes = [
     cookTime: 20,
     servings: 4,
     ingredients: [
-      "3 cups cooked rice",
+      "3 cups cooked black rice",
       "2 eggs, beaten",
       "1/2 cup peas",
       "1/2 cup diced carrots",
@@ -494,7 +516,8 @@ const recipes = [
       "Stir-fry vegetables until tender.",
       "Add rice and soy sauce, mix well.",
       "Stir in eggs, cook for 2 more minutes, and serve."
-    ]
+    ],
+    tags: ["asian", "dinner", "rice", "vegetarian", "lunch", "quick"]
   },
   {
     id: 24,
@@ -515,7 +538,8 @@ const recipes = [
       "Mix flour, baking powder, and water to form batter.",
       "Dip fish into batter and fry until crispy and golden.",
       "Serve fish with chips and a sprinkle of salt."
-    ]
+    ],
+    tags: [ "dinner", "seafood", "lunch"]
   },
   {
     id: 25,
@@ -537,8 +561,9 @@ const recipes = [
       "Combine tomatoes, cucumber, onion, and olives in a bowl.",
       "Add feta on top, drizzle with olive oil and vinegar.",
       "Sprinkle with oregano and salt, then toss and serve."
-    ]
-  }
+    ],
+    tags: [ "salad", "vegetarian", "lunch"]
+  } 
 ];
 
 export default recipes;
