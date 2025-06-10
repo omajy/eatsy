@@ -13,16 +13,16 @@ function RecipeCard({ title, image, cookTime, servings, ingredients, instruction
         
         <div className="absolute w-full h-full backface-hidden bg-white rounded-3xl shadow-xl overflow-hidden flex flex-col">
           <img src={image} alt={title} className="h-[374px] w-full object-cover" />
-          <div className="p-4 flex-grow flex flex-col">
-            <h2 className="text-2xl font-semibold mb-4 text-gray-800 text-center">{title}</h2>
-            <div className="flex justify-between text-gray-700 mb-2">
-              <p>🍽️ {servings} servings</p>
+          <div className="p-4 flex-grow flex flex-col text-[#5C4033]">
+            <h2 className="text-2xl font-semibold mb-4 font-['Sora'] text-[#5C4033] text-center">{title}</h2>
+            <div className="flex justify-between text-[#5C4033] mb-2">
+              <p >🍽️ {servings} servings</p>
               <p>⏱️ {cookTime} mins</p>
             </div>
           </div>
         </div>
 
-        <div className="absolute w-full h-full backface-hidden rotate-y-180 bg-white rounded-3xl shadow-xl overflow-y-auto p-4 text-sm text-gray-700 text-left">
+        <div className="absolute w-full h-full backface-hidden rotate-y-180 bg-white rounded-3xl shadow-xl overflow-y-auto p-4 text-sm text-[#5C4033] font-['Sora'] text-left">
           <h3 className="font-semibold mb-1">Ingredients:</h3>
           <ul className="list-disc list-inside mb-2">
             {ingredients.map((item, idx) => (

@@ -284,7 +284,7 @@ const recipes = [
   },
   {
     id: 13,
-    title: "Chocolate Chip Cookies",
+    title: "Choc Chip Cookies",
     image: "/images/choc-chip-cookies.jpg",
     cookTime: 25,
     servings: 12,
